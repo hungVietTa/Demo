@@ -2,7 +2,6 @@
 body {
     background-color: #D5D9E2;
 }
-
 #app {
     width: 1500px;
     margin: auto;
@@ -13,7 +12,7 @@ body {
 
 /* MAIN */
 #main {
-    padding: 0 100px;
+    padding-left: 140px;
 }
 
 /* SIDE MENU */
