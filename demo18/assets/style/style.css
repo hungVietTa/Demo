@@ -1,6 +1,3 @@
-#app {
-
-}
 .over-lay {
     display: none;
     position: absolute;
@@ -8,7 +5,6 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(1, 1, 1, 0.3);
     z-index: 9998;
 }
 /* HEADER */
@@ -16,22 +12,41 @@
     border-bottom: 1px solid #F2F2F2;
 }
 #header .navbar {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 #header form {
     padding: 13px 17px;
     width: 388px;
 }
-
 #header form input {
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
+    outline: none;
     border: none;
     box-shadow: none;
+    color: #5e6278;
 }
+.search-history {
+    padding: 21px;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    height: 341px;
+    background-color: white;
+    border: 2px solid #bbb;
+}
+.search-history-input {
+    padding:9px 5px 9px 15px;
+    background-color: #f5f8fa;
 
+}
+.search-history-input input {
+    width: 205px;
+    background-color: transparent;
+}
 #header .btn-nav-create {
     font-weight: 600;
     font-size: 12px;
@@ -51,7 +66,7 @@
 }
 
 #header .btn-nav-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.0);
 }
 
 #header .btn-nav-count {
@@ -93,10 +108,6 @@
     padding: 8px 10px 0;
 }
 /* MAIN */
-#main {
-    padding: 60px 0px;
-    gap: 40px;
-}
 /* MAIN-ROW-1 */
 .card-category {
     cursor: pointer;
@@ -105,7 +116,7 @@
     transition: transform 0.2s linear;
 }
 .card-category:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 .card-category p {
     margin-top: 15px;
@@ -126,7 +137,6 @@
     background-color: #FFF4DE;
     position: relative;
 }
-
 .panel-category h2 {
     margin-bottom: 2px;
     font-weight: 600;
@@ -185,7 +195,11 @@
 .stats-chart {
     padding-top: 26px;
 }
-
+.stats-chart svg {
+    width: 100%;
+    height: auto;
+    max-width: 686.74px;
+}
 .authors {
     padding: 23px 30px 33px;
 }
@@ -206,7 +220,7 @@
     transition: transform 0.2s linear;
 }
 .authors-list a:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 .authors-list h3 {
     font-weight: 600;
