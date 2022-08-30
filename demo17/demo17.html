@@ -6,41 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/normalize.css">
     <link rel="stylesheet" href="assets/style/pre.css">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/responsive.css">
 </head>
+
 <body>
     <div id="app">
-        <aside class="side-menu">
-            <a href="#" class="side-menu-nav-logo">
-                <img src="assets/img/img-logo4.svg" alt="">
-            </a>
-            <nav class="side-menu-nav">
-                <a class="side-menu-nav-rectangle" href="#">
-                    <img src="assets/img/img-rectangle.svg" alt="">
+        <main id="main">
+            <aside class="side-menu container-xxl">
+                <a href="#" class="side-menu-nav-logo">
+                    <img src="assets/img/img-logo4.svg" alt="">
                 </a>
-                <a href="#">
-                    <img src="assets/img/img-shuriken.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="assets/img/img-calendar.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="assets/img/img-rocket.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="assets/img/img-map.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="assets/img/img-cogwheel.svg" alt="">
-                </a>
-                <a href="" class="side-menu-nav-leave">
-                    <img src="assets/img/img-leave.svg" alt="">
-                </a>
-            </nav>
-        </aside>
-        <main id="main" >
+                <nav class="side-menu-nav">
+                    <a class="side-menu-nav-rectangle" href="#">
+                        <img src="assets/img/img-rectangle.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/img-shuriken.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/img-calendar.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/img-rocket.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/img-map.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/img-cogwheel.svg" alt="">
+                    </a>
+                    <a href="" class="side-menu-nav-leave">
+                        <img src="assets/img/img-leave.svg" alt="">
+                    </a>
+                </nav>
+                <button class="btn side-menu-toggle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z"
+                            fill="currentColor"></path>
+                        <path opacity="0.3"
+                            d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </button>
+            </aside>
             <header id="header" class="container-xxl">
                 <h1 class="header-title">Catergories</h1>
                 <ul class="header-feature">
@@ -67,311 +80,316 @@
                     </li>
                 </ul>
             </header>
-            <div id="wrap">
-                <div class="col-left">
-                    <section class="gift-section">
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart1.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart2.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart3.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart4.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart5.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart6.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart7.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                        <a href="" class="gift-section-card">
-                            <img src="assets/img/gift/cart8.svg" alt="">
-                            <p>Great Gifts</p>
-                        </a>
-                    </section>
-                    <section class="time-line-section common-section">
-                        <div class="section-heading">
-                            <div>
-                                <p class="section-heading-title">Recent Activities</p>
-                                <span class="section-heading-sub">890,344 Sales</span>
-                            </div>
-                            <a class="time-line-button"><img src="assets/img/three-dots.jpg" alt=""></a>
-                        </div>
-                        <div class="time-line-content">
-                            <div class="time-line-event">
-                                <div class="time-line-mark bdr-purple-pseudo">08:42</div>
-                                <div class="time-line-text">
-                                    Outlines keep you honest. Indulging in poorly driving and keep structure
-                                </div>
-                            </div>
-                            <div class="time-line-event align-items-center ">
-                                <div class="time-line-mark bdr-green-pseudo">10:00</div>
-                                <div class="time-line-text">
-                                    <p class="time-line-p-common">AEOL meeting with</p>
-                                    <img src="assets/img/man.png" alt="">
-                                    <img src="assets/img/girl.png" alt="">
-                                </div>
-                            </div>
-                            <div class="time-line-event">
-                                <div class="time-line-mark bdr-pink-pseudo">14:37</div>
-                                <div class="time-line-text">
-                                    <p class="time-line-p-common">Make deposit <span class="green">USD 700</span> to ESL
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="time-line-event">
-                                <div class="time-line-mark bdr-blue-pseudo">16:50</div>
-                                <div class="time-line-text">
-                                    Outlines keep you honest. Indulging in poorly driving and keep structure keep you
-                                    honest great
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="col-right">
-                    <section class="billboard-section" style="background-image: url(assets/img/billboard2.png);" href="">
-                        <h2>We are working <br> to boost lovely mood</h2>
-                        <a class="billboard-link" href="#">
-                            Create a Store
-                        </a>
-                    </section>
-                    <div class="trend-properties gap-30">
-                        <section class="trend-section common-section">
-                            <div class="section-heading">
-                                <h3 class="section-heading-title">Trends</h3>
-                                <a class="trend-heading-button" href="#">
-                                    <img src="assets/img/three-dots.jpg" alt="">
-                                </a>
-                            </div>
-                            <img class="trend-chart" src="assets/img/Chart.png" alt="">
-                            <div class="trend-content gap-30">
-                                <div class="trend-item flex-balance">
-                                    <img src="assets/img/trend/trend-icon-1.png" alt="">
-                                    <div class="common-item-content">
-                                        <p class="common-item-title">Top Author</p>
-                                        <span class="common-item-text">Successful Fellas</span>
-                                    </div>
-                                    <a class="trend-bonus">
-                                        +82$
-                                    </a>
-                                </div>
-                                <div class="trend-item flex-balance">
-                                    <img src="assets/img/trend/trend-icon-2.png" alt="">
-                                    <div class="common-item-content">
-                                        <p class="common-item-title">Top Author</p>
-                                        <span class="common-item-text">Successful Fellas</span>
-                                    </div>
-                                    <a class="trend-bonus">
-                                        +500$
-                                    </a>
-                                </div>
-                                <div class="trend-item flex-balance">
-                                    <img src="assets/img/trend/trend-icon-3.png" alt="">
-                                    <div class="common-item">
-                                        <p class="common-item-title">Top Author</p>
-                                        <span class="common-item-text">Most successful Fellas</span>
-                                    </div>
-                                    <a class="trend-bonus">
-                                        +4500$
-                                    </a>
-                                </div>
-                            </div>
+            <div id="wrap" class="container-xxl">
+                <div class="row gx-xxl-60 gx-xl-30">
+                    <div class="col-xl-4-3">
+                        <section class="gift-section">
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart1.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart2.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart3.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart4.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart5.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart6.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart7.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
+                            <a href="" class="gift-section-card">
+                                <img src="assets/img/gift/cart8.svg" alt="">
+                                <p>Great Gifts</p>
+                            </a>
                         </section>
-                        <section class="properties-section common-section">
+                        <section class="time-line-section common-section">
                             <div class="section-heading">
-                                <h3 class="section-heading-title ">Properties</h3>
-                                <a class="properties-heading-button" href="#">
-                                    <img src="assets/img/three-dots.jpg" alt="">
-                                </a>
+                                <div>
+                                    <p class="section-heading-title">Recent Activities</p>
+                                    <span class="section-heading-sub">890,344 Sales</span>
+                                </div>
+                                <a class="time-line-button"><img src="assets/img/three-dots.jpg" alt=""></a>
                             </div>
-                            <div class="properties-content gap-30">
-                                <div class="properties-item flex-balance">
-                                    <img src="assets/img/property/properties-icon1.png" alt="">
-                                    <div class="common-item-content">
-                                        <p class="common-item-title">BlueSky Apartments</p>
-                                        <span class="common-item-text">Most Successful Fellas</span>
+                            <div class="time-line-content">
+                                <div class="time-line-event">
+                                    <div class="time-line-mark bdr-purple-pseudo">08:42</div>
+                                    <div class="time-line-text">
+                                        Outlines keep you honest. Indulging in poorly driving and keep structure
                                     </div>
-                                    <a href="#" class="properties-arrow">
-                                        <img src="assets/img/property/properties-arrow.svg" alt="">
-                                    </a>
                                 </div>
-                                <div class="properties-item flex-balance">
-                                    <img src="assets/img/property/properties-icon2.png" alt="">
-                                    <div class="properties-content-text">
-                                        <p class="common-item-title">Yellow Lines</p>
-                                        <span class="common-item-text">Most Successful Fellas</span>
+                                <div class="time-line-event align-items-center ">
+                                    <div class="time-line-mark bdr-green-pseudo">10:00</div>
+                                    <div class="time-line-text">
+                                        <p class="time-line-p-common">AEOL meeting with</p>
+                                        <img src="assets/img/man.png" alt="">
+                                        <img src="assets/img/girl.png" alt="">
                                     </div>
-                                    <a href="#" class="properties-arrow">
-                                        <img src="assets/img/property/properties-arrow.svg" alt="">
-                                    </a>
                                 </div>
-                                <div class="properties-item flex-balance">
-                                    <img src="assets/img/property/properties-icon3.png" alt="">
-                                    <div class="properties-content-text">
-                                        <p class="common-item-title">421 Avunue</p>
-                                        <span class="common-item-text">Most Successful Fellas</span>
+                                <div class="time-line-event">
+                                    <div class="time-line-mark bdr-pink-pseudo">14:37</div>
+                                    <div class="time-line-text">
+                                        <p class="time-line-p-common">Make deposit <span class="green">USD 700</span> to
+                                            ESL
+                                        </p>
                                     </div>
-                                    <a href="#" class="properties-arrow">
-                                        <img src="assets/img/property/properties-arrow.svg" alt="">
-                                    </a>
                                 </div>
-                                <div class="properties-item flex-balance">
-                                    <img src="assets/img/property/properties-icon4.png" alt="">
-                                    <div class="properties-content-text">
-                                        <p class="common-item-title">Glassbricks</p>
-                                        <span class="common-item-text">Most Successful Fellas</span>
+                                <div class="time-line-event">
+                                    <div class="time-line-mark bdr-blue-pseudo">16:50</div>
+                                    <div class="time-line-text">
+                                        Outlines keep you honest. Indulging in poorly driving and keep structure keep
+                                        you
+                                        honest great
                                     </div>
-                                    <a href="#" class="properties-arrow">
-                                        <img src="assets/img/property/properties-arrow.svg" alt="">
-                                    </a>
                                 </div>
                             </div>
                         </section>
                     </div>
-                    <section class="new-arrivals-section common-section">
-                        <div class="section-heading">
-                            <div class="">
-                                <h3 class="section-heading-title">New Arrivals</h3>
-                                <span class="section-heading-sub">More than 400+ new members</span>
-                            </div>
-                            <div class="new-arrivals-heading-buttons">
-                                <a href="#">
-                                    Month
-                                </a>
-                                <a href="#">
-                                    Week
-                                </a>
-                                <a class="active" href="#">
-                                    Day
-                                </a>
-                            </div>
+                    <div class="col-xl-7-7">
+                        <section class="billboard-section" style="background-image: url(assets/img/billboard2.png);"
+                            href="">
+                            <h2>We are working <br> to boost lovely mood</h2>
+                            <a class="billboard-link" href="#">
+                                Create a Store
+                            </a>
+                        </section>
+                        <div class="trend-properties gap-30">
+                            <section class="trend-section common-section">
+                                <div class="section-heading">
+                                    <h3 class="section-heading-title">Trends</h3>
+                                    <a class="trend-heading-button" href="#">
+                                        <img src="assets/img/three-dots.jpg" alt="">
+                                    </a>
+                                </div>
+                                <img class="trend-chart" src="assets/img/Chart.png" alt="">
+                                <div class="trend-content gap-30">
+                                    <div class="trend-item flex-balance">
+                                        <img src="assets/img/trend/trend-icon-1.png" alt="">
+                                        <div class="common-item-content">
+                                            <p class="common-item-title">Top Author</p>
+                                            <span class="common-item-text">Successful Fellas</span>
+                                        </div>
+                                        <a class="trend-bonus">
+                                            +82$
+                                        </a>
+                                    </div>
+                                    <div class="trend-item flex-balance">
+                                        <img src="assets/img/trend/trend-icon-2.png" alt="">
+                                        <div class="common-item-content">
+                                            <p class="common-item-title">Top Author</p>
+                                            <span class="common-item-text">Successful Fellas</span>
+                                        </div>
+                                        <a class="trend-bonus">
+                                            +500$
+                                        </a>
+                                    </div>
+                                    <div class="trend-item flex-balance">
+                                        <img src="assets/img/trend/trend-icon-3.png" alt="">
+                                        <div class="common-item">
+                                            <p class="common-item-title">Top Author</p>
+                                            <span class="common-item-text">Most successful Fellas</span>
+                                        </div>
+                                        <a class="trend-bonus">
+                                            +4500$
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="properties-section common-section">
+                                <div class="section-heading">
+                                    <h3 class="section-heading-title ">Properties</h3>
+                                    <a class="properties-heading-button" href="#">
+                                        <img src="assets/img/three-dots.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="properties-content gap-30">
+                                    <div class="properties-item flex-balance">
+                                        <img src="assets/img/property/properties-icon1.png" alt="">
+                                        <div class="common-item-content">
+                                            <p class="common-item-title">BlueSky Apartments</p>
+                                            <span class="common-item-text">Most Successful Fellas</span>
+                                        </div>
+                                        <a href="#" class="properties-arrow">
+                                            <img src="assets/img/property/properties-arrow.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="properties-item flex-balance">
+                                        <img src="assets/img/property/properties-icon2.png" alt="">
+                                        <div class="properties-content-text">
+                                            <p class="common-item-title">Yellow Lines</p>
+                                            <span class="common-item-text">Most Successful Fellas</span>
+                                        </div>
+                                        <a href="#" class="properties-arrow">
+                                            <img src="assets/img/property/properties-arrow.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="properties-item flex-balance">
+                                        <img src="assets/img/property/properties-icon3.png" alt="">
+                                        <div class="properties-content-text">
+                                            <p class="common-item-title">421 Avunue</p>
+                                            <span class="common-item-text">Most Successful Fellas</span>
+                                        </div>
+                                        <a href="#" class="properties-arrow">
+                                            <img src="assets/img/property/properties-arrow.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="properties-item flex-balance">
+                                        <img src="assets/img/property/properties-icon4.png" alt="">
+                                        <div class="properties-content-text">
+                                            <p class="common-item-title">Glassbricks</p>
+                                            <span class="common-item-text">Most Successful Fellas</span>
+                                        </div>
+                                        <a href="#" class="properties-arrow">
+                                            <img src="assets/img/property/properties-arrow.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                        <div class="new-arrivals-content gap-30">
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-stats">
-                                    <img src="assets/img/trend/trend-icon-1.png" alt="">
-                                    <div>
-                                        <p class="common-item-title" class="common-tem-title">San Outstanding</p>
-                                        <span><strong>FTP:</strong> bprow@bnc.cc</span>
-                                    </div>
-                                    <div class="new-arrivals-stats-price">
-                                        <p class="bold-600"> $2,000,000</p>
-                                        <span>Paid</span>
-                                    </div>
+                        <section class="new-arrivals-section common-section">
+                            <div class="section-heading">
+                                <div class="">
+                                    <h3 class="section-heading-title">New Arrivals</h3>
+                                    <span class="section-heading-sub">More than 400+ new members</span>
                                 </div>
-                                <div class="new-arrivals-controls">
-                                    <a class="new-arrivals-controls-button light-purple bg-grey" href="">
-                                        Approved
+                                <div class="new-arrivals-heading-buttons">
+                                    <a href="#">
+                                        Month
                                     </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Settings.svg" alt="">
+                                    <a href="#">
+                                        Week
                                     </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Write.svg" alt="">
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Trash.svg" alt="">
+                                    <a class="active" href="#">
+                                        Day
                                     </a>
                                 </div>
                             </div>
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-stats">
-                                    <img src="assets/img/trend/trend-icon-2.png" alt="">
-                                    <div>
-                                        <p class="common-item-title">Telegram Mobile</p>
-                                        <span><strong>FTP:</strong> bprow@bnc.cc</span>
+                            <div class="new-arrivals-content gap-30">
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-stats">
+                                        <img src="assets/img/trend/trend-icon-1.png" alt="">
+                                        <div>
+                                            <p class="common-item-title" class="common-tem-title">San Outstanding</p>
+                                            <span><strong>FTP:</strong> bprow@bnc.cc</span>
+                                        </div>
+                                        <div class="new-arrivals-stats-price">
+                                            <p class="bold-600"> $2,000,000</p>
+                                            <span>Paid</span>
+                                        </div>
                                     </div>
-                                    <div class="new-arrivals-stats-price">
-                                        <p class="bold-600">$4,600,000</p>
-                                        <span>Paid</span>
+                                    <div class="new-arrivals-controls">
+                                        <a class="new-arrivals-controls-button light-purple bg-grey" href="">
+                                            Approved
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Settings.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Write.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Trash.svg" alt="">
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="new-arrivals-controls">
-                                    <a class="new-arrivals-controls-button bg-light-khaki dark-yellow " href="">
-                                        In Progress
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Settings.svg" alt="">
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Write.svg" alt="">
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Trash.svg" alt="">
-                                    </a>
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-stats">
+                                        <img src="assets/img/trend/trend-icon-2.png" alt="">
+                                        <div>
+                                            <p class="common-item-title">Telegram Mobile</p>
+                                            <span><strong>FTP:</strong> bprow@bnc.cc</span>
+                                        </div>
+                                        <div class="new-arrivals-stats-price">
+                                            <p class="bold-600">$4,600,000</p>
+                                            <span>Paid</span>
+                                        </div>
+                                    </div>
+                                    <div class="new-arrivals-controls">
+                                        <a class="new-arrivals-controls-button bg-light-khaki dark-yellow " href="">
+                                            In Progress
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Settings.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Write.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Trash.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-stats">
+                                        <img src="assets/img/trend/trend-icon-3.png" alt="">
+                                        <div>
+                                            <p class="common-item-title" class="common-tem-title">Cisco Management</p>
+                                            <span class="common-item-text"><strong>FTP:</strong> bprow@bnc.cc</span>
+                                        </div>
+                                        <div class="new-arrivals-stats-price">
+                                            <p class="bold-600">$560,000</p>
+                                            <span>Paid</span>
+                                        </div>
+                                    </div>
+                                    <div class="new-arrivals-controls">
+                                        <a class="new-arrivals-controls-button green bg-pink" href="">
+                                            Success
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Settings.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Write.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Trash.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="new-arrivals-item">
+                                    <div class="new-arrivals-stats">
+                                        <img src="assets/img/trend/trend-icon-1.png" alt="">
+                                        <div>
+                                            <p class="common-item-title" class="common-tem-title">Beats Studio</p>
+                                            <span class="common-item-text"><strong>FTP:</strong> bprow@bnc.cc</span>
+                                        </div>
+                                        <div class="new-arrivals-stats-price">
+                                            <p class="bold-600">$53,000</p>
+                                            <span>Paid</span>
+                                        </div>
+                                    </div>
+                                    <div class="new-arrivals-controls">
+                                        <a class="new-arrivals-controls-button bg-light-khaki dark-yellow" href="">
+                                            In progress
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Settings.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Write.svg" alt="">
+                                        </a>
+                                        <a class="new-arrivals-controls-icon" href="#">
+                                            <img src="assets/img/Trash.svg" alt="">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-stats">
-                                    <img src="assets/img/trend/trend-icon-3.png" alt="">
-                                    <div>
-                                        <p class="common-item-title" class="common-tem-title">Cisco Management</p>
-                                        <span class="common-item-text"><strong>FTP:</strong> bprow@bnc.cc</span>
-                                    </div>
-                                    <div class="new-arrivals-stats-price">
-                                        <p class="bold-600">$560,000</p>
-                                        <span>Paid</span>
-                                    </div>
-                                </div>
-                                <div class="new-arrivals-controls">
-                                    <a class="new-arrivals-controls-button green bg-pink" href="">
-                                    Success
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Settings.svg" alt="">
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Write.svg" alt="">
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Trash.svg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="new-arrivals-item">
-                                <div class="new-arrivals-stats">
-                                    <img src="assets/img/trend/trend-icon-1.png" alt="">
-                                    <div>
-                                        <p class="common-item-title" class="common-tem-title">Beats Studio</p>
-                                        <span class="common-item-text"><strong>FTP:</strong> bprow@bnc.cc</span>
-                                    </div>
-                                    <div class="new-arrivals-stats-price">
-                                        <p class="bold-600">$53,000</p>
-                                        <span>Paid</span>
-                                    </div>
-                                </div>
-                                <div class="new-arrivals-controls">
-                                    <a class="new-arrivals-controls-button bg-light-khaki dark-yellow" href="">
-                                    In progress
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Settings.svg" alt="">
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Write.svg" alt="">
-                                    </a>
-                                    <a class="new-arrivals-controls-icon" href="#">
-                                        <img src="assets/img/Trash.svg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    </div>
+                </div>
         </main>
     </div>
 </body>
