@@ -40,6 +40,9 @@ input {
     border: none;
     outline: none;
 }
+.w-50px {
+    width: 50px;
+}
 /* MARGIN */
 .mrt-5px {
     margin-top: 5px;
@@ -47,8 +50,14 @@ input {
 .mrt-10 {
     margin-top: 10px;
 }
-.mrb-5px {
+.mrb-5 {
     margin-bottom: 5px;
+}
+.mb-30 {
+  margin-bottom: 30px;  
+}
+.mb-15 {
+    margin-bottom: 15px;
 }
 .mrb-10 {
     margin-bottom: 10px;
@@ -89,6 +98,10 @@ input {
 }
 .pdr-10 {
     margin-right: 10px;
+}
+.g-15 {
+    --bs-gutter-x:15px;
+    --bs-gutter-y:15px;
 }
 .gap-30 {
     gap: 30px;
@@ -165,6 +178,7 @@ input {
 /* SECTION-CSS */
 .section-heading {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
