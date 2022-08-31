@@ -43,7 +43,7 @@
                         <img src="assets/img/img-leave.svg" alt="">
                     </a>
                 </nav>
-                <button class="btn side-menu-toggle">
+                <button class="btn side-menu-toggle" id="menu-toggler">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z"
                             fill="currentColor"></path>
@@ -57,10 +57,16 @@
                     <h1 class="header-title mb-15 mb-sm-0">Catergories</h1>
                     <ul class="header-feature ">
                         <li class="header-feature-search">
-                            <div class="header-feature-search-box">
-                                <img src="assets/img/img-search.svg" alt="">
-                                <input type="search" placeholder="Find Goods">
+                            <div class="search-showup">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor"></rect>
+                                    <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor"></path>
+                                </svg>
                             </div>
+                            <form class="header-feature-search-box">
+                                    <img src="assets/img/img-search.svg" alt="">
+                                    <input type="search" placeholder="Find Goods">
+                            </form>
                         </li>
                         <li class="header-notification">
                             <a href="#" class="header-notification-link">
@@ -307,7 +313,7 @@
                             </div>
                             <div class="new-arrivals-content">
                                 <div class="row new-arrivals-item mb-30 flex-nowrap ">
-                                    <div class="col-12 col-md-6 new-arrivals-stats">
+                                    <div class="col-12 col-sm-8 col-md-6 new-arrivals-stats">
                                         <img src="assets/img/trend/trend-icon-1.png" alt="">
                                         <div>
                                             <p class="common-item-title" class="common-tem-title">San Outstanding</p>
@@ -318,12 +324,12 @@
                                             <span>Paid</span>
                                         </div>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-status">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-status">
                                         <a class="new-arrivals-controls-button light-purple bg-grey" href="">
                                             Approved
                                         </a>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-controls">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-controls">
                                         <a class="new-arrivals-controls-icon" href="#">
                                             <img src="assets/img/Settings.svg" alt="">
                                         </a>
@@ -336,7 +342,7 @@
                                     </div>
                                 </div>
                                 <div class="row new-arrivals-item mb-30 flex-nowrap ">
-                                    <div class="d-flex col-12 col-md-6 new-arrivals-stats">
+                                    <div class="d-flex col-12 col-sm-8 col-md-6 new-arrivals-stats">
                                         <img src="assets/img/trend/trend-icon-2.png" alt="">
                                         <div>
                                             <p class="common-item-title">Telegram Mobile</p>
@@ -347,12 +353,12 @@
                                             <span>Paid</span>
                                         </div>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-status">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-status">
                                         <a class="new-arrivals-controls-button bg-light-khaki dark-yellow " href="">
                                             In Progress
                                         </a>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-controls">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-controls">
 
                                         <a class="new-arrivals-controls-icon" href="#">
                                             <img src="assets/img/Settings.svg" alt="">
@@ -366,7 +372,7 @@
                                     </div>
                                 </div>
                                 <div class="row new-arrivals-item mb-30 flex-nowrap ">
-                                    <div class="d-flex col-12 col-md-6 new-arrivals-stats">
+                                    <div class="d-flex col-12 col-sm-8 col-md-6 new-arrivals-stats">
                                         <img src="assets/img/trend/trend-icon-3.png" alt="">
                                         <div>
                                             <p class="common-item-title" class="common-tem-title">Cisco Management</p>
@@ -377,12 +383,12 @@
                                             <span>Paid</span>
                                         </div>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-status">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-status">
                                         <a class="new-arrivals-controls-button green bg-pink" href="">
                                             Success
                                         </a>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-controls">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-controls">
                                         <a class="new-arrivals-controls-icon" href="#">
                                             <img src="assets/img/Settings.svg" alt="">
                                         </a>
@@ -395,7 +401,7 @@
                                     </div>
                                 </div>
                                 <div class="row new-arrivals-item mb-30 flex-nowrap ">
-                                    <div class="d-flex col-12 col-md-6 new-arrivals-stats">
+                                    <div class="d-flex col-12 col-sm-8 col-md-6 new-arrivals-stats">
                                         <img src="assets/img/trend/trend-icon-1.png" alt="">
                                         <div>
                                             <p class="common-item-title" class="common-tem-title">Beats Studio</p>
@@ -406,12 +412,12 @@
                                             <span>Paid</span>
                                         </div>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-status">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-status">
                                         <a class="new-arrivals-controls-button bg-light-khaki dark-yellow" href="">
                                             In progress
                                         </a>
                                     </div>
-                                    <div class="col-4 col-md-3 new-arrivals-controls">
+                                    <div class="col-6 col-sm-4 col-md-3 new-arrivals-controls">
                                         <a class="new-arrivals-controls-icon" href="#">
                                             <img src="assets/img/Settings.svg" alt="">
                                         </a>
@@ -429,6 +435,21 @@
             </div>
         </main>
     </div>
+    <div id="overlay">
+        
+    </div>
 </body>
-
+    <script>
+        var togglerBtn = document.getElementById("menu-toggler")
+        var sideMenuNav = document.querySelector(".side-menu-nav")
+        var overlay =document.querySelector("#overlay")
+        togglerBtn.onclick = function(){
+            sideMenuNav.classList.toggle("active")
+            overlay.style.display="block"
+        }
+        overlay.onclick = function(){
+            sideMenuNav.classList.toggle("active")
+            overlay.style.display="none"
+        }
+    </script>
 </html>

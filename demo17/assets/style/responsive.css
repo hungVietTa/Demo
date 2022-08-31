@@ -1,3 +1,4 @@
+/* 5 MUC RESPONSIVE 567PX - 768PX - 992PX - 1200PX - 1400PX */
 .gx-30 {
     --bs-gutter-x:30px;
 }
@@ -9,15 +10,32 @@
    .header-title {
     width: auto;
    }
-   .header-feature {
+   .new-arrivals-heading-title {
     width: auto;
-   }
+    text-align: left;
+    margin-bottom: 0;
+    }
+    .new-arrivals-heading-buttons {
+    width: auto;
+    }
+    .billboard-section h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
 }
+
+
 @media (min-width:768px) {
     .gx-lg-30 {
         --bs-gutter-x:30px;
     }
+    .new-arrivals-content {
+        overflow:unset;
+    }
 }
+
+
 @media (min-width:992px) {
     .container-xxl {
         max-width: 1190px;
@@ -36,7 +54,7 @@
         text-align: center;
         width: 140px;
         background-color: white;
-        padding: 40px;
+        padding: 40px 0;
         margin-left: 0;
     }
 
@@ -45,28 +63,29 @@
         display: flex;
         gap: 17px;
         flex-direction: column;
-        border-top: 1px solid #F5F8FA;
+        position: static;
+        transition: none;
     }
 
     .side-menu-nav-logo {
-        margin-bottom: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        border-bottom: 1px solid #F5F8FA;
     }
     .side-menu-toggle {
         display: none;
     }
     .header-feature-search-box {
         width: 240px;
-        padding: 10px 13px;
-        margin-right: 10px;
+        display: flex;
+        margin-bottom: 0;
     }
-    .header-feature-search-box img {
-        margin-right: 13px;
+    .search-showup {
+        display: none;
     }
-    .header-feature-search-box input  {
-        display: inline-block;
-    }
-
 }
+
+
 @media (min-width:1200px) {
     .time-line-text {
         width: 254px;

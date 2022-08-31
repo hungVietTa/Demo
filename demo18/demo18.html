@@ -20,7 +20,7 @@
         <div class="over-lay"></div>
         <header id="header" class="sticky-top bg-white">
             <nav class="navbar navbar-expand-lg container-xxl justify-content-start align-items-center">
-                <button class="navbar-toggler d-block border-0 p-0 mr-10 mr-md-15 mr-lg-24" type="button">
+                <button id="aside-toggler" class="navbar-toggler d-block border-0 p-0 mr-10 mr-md-15 mr-lg-24" type="button">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect opacity="0.3" x="5.3335" y="6.6665" width="21.3333" height="2.66667" rx="1.33333"
                             fill="black" />
@@ -1328,6 +1328,21 @@
             </div>
         </main>
     </div>
+    <div id="overlay">
+        
+    </div>
 </body>
-
+    <script>
+        var asideMenu = document.getElementById("aside")
+        var asideBtn = document.getElementById("aside-toggler")
+        var overlay =document.querySelector("#overlay")
+        asideBtn.onclick = function(){
+            asideMenu.classList.toggle("active")
+            overlay.style.display="block"
+        }
+        overlay.onclick = function(){
+            asideMenu.classList.toggle("active")
+            overlay.style.display="none"
+        }
+    </script>
 </html>

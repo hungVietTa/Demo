@@ -2,9 +2,21 @@
 body {
     background-color: #F9FAFB;
 }
-
+/* OVERLAY */
+#overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(4,4,4,0.2);
+    display: none;
+}
 /* MAIN */
-
+#main {
+    margin-bottom: 20px;
+}
 /* SIDE MENU */
 .side-menu {
     z-index:10;
@@ -33,9 +45,26 @@ body {
 }
 
 .side-menu-nav {
+    padding-top: 33px;
     display: none;
 }
-
+.side-menu-nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: -120px;
+    bottom: 0;
+    flex-direction: column;
+    background-color: white;
+    padding:33px 30px;
+    gap: 15px;
+    transition: left 0.2s linear;
+    z-index: 2;
+}
+.side-menu-nav.active {
+    left: 0;
+    /* transform: translateX(0); */
+}
 .side-menu-nav a {
     padding: 15px;
 }
@@ -58,8 +87,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-top: 39px;
-    padding-bottom: 39px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .header-title {
     font-size: 24px;
@@ -67,27 +96,33 @@ body {
 }
 
 .header-feature {
-    width: 100%;
     display: flex;
     align-items: center;
+    position: relative;
 }
-
+.header-feature-search {
+    position: relative;
+    margin-right: 10px;
+}
 .header-feature-search-box {
-    padding: 11px 13px;
+    padding: 10px 13px;
     border-radius: 9px;
     border: 1px solid #E4E6EF;
-    display: flex;
+    display: none;
     align-items: center;
-    margin-right: 10px;
     font-size: 13px;
+    gap: 10px;
 }
-
+.search-showup {
+    border: 1px solid #E4E6EF ;
+    padding: 8px;
+    border-radius: 9px;
+}
 .header-feature-search-box img {
     width: 18px;
 }
 
 .header-feature-search-box input {
-    display: none;
     background-color: transparent;
     color: #B5B5C3;
     font-weight: 500;
@@ -265,8 +300,8 @@ body {
 
 .billboard-section h2 {
     font-weight: 600;
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 22px;
+    line-height: 26px;
     margin-bottom: 22px;
 }
 
@@ -353,7 +388,6 @@ body {
 }
 
 .new-arrivals-section {
-    margin-top: 30px;
     padding: 25px 30px;
     background-color: white;
     border-radius: 12px;
